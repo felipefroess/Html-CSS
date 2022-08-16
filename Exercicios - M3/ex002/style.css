@@ -10,9 +10,22 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "PassionOne";
+    src: url("fontes/PassionOne-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
 header{
     background-color: black;
-    padding: 80px;
+    padding: 105px;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: 'PassionOne', Courier, monospace;
+    font-size: 93px;
+    font-weight: bold;
 }
 body{
     background-color: black;
