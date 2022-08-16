@@ -18,7 +18,8 @@
 }
 header{
     background-color: black;
-    padding: 105px;
+    padding: 62px;
+    text-align: justify;
 }
 header > h1{
     color: white;
@@ -26,6 +27,19 @@ header > h1{
     font-family: 'PassionOne', Courier, monospace;
     font-size: 93px;
     font-weight: bold;
+}
+header > p{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+p > a{
+    color: white;
+    text-decoration: none;
+}
+p > a:hover{
+    text-decoration: underline;
 }
 body{
     background-color: black;
